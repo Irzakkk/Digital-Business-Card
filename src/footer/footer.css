@@ -1,0 +1,21 @@
+footer img{
+    width: 35px;
+    height: 35px;
+    color: white;
+    display: inline-flex;
+    /* padding-left: 20px; */ 
+    cursor: pointer;
+}
+footer{
+    padding-top: 20px;
+    /* justify-content: space-around; */
+    padding-bottom: 20px;
+    background-color: white;
+    /* border-radius: 30px; */
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+}
+img:nth-child(2){
+    padding-left: 40px;
+    padding-right: 40px;
+}

@@ -1,0 +1,71 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
+img{
+    width: 100%;
+    /* border-radius: 5px; */
+    height: 270px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.info-div{
+    /* padding-bottom: 10px; */
+    line-height: 0px;
+    padding-bottom: 10px;
+    /* border-radius: 50px; */
+}
+.info-div h1{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+    font-weight: 900;
+}
+.info-div .web{
+    text-decoration: underline;
+}
+.info-div :nth-child(3){
+    color: #F3BF99;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    /* font-weight: bold; */
+}
+.btn-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.btn-div button{
+    display: flex;
+    padding: 10px;
+    border-radius: 20px;
+}
+.btn-div button .linkedIn-logo{
+    width: 18px;
+    padding-right: 8px;
+    color: white;
+}
+.bi{
+    padding-right: 8px;
+    width: 20px;
+    position: relative;
+    top: 2px;
+}
+.btn-div button:nth-child(1){
+    background-color: #FFFF00;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+}
+.btn-div button:nth-child(2){
+    border: none;
+    background-color: #5093E2;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
